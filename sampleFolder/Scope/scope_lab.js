@@ -27,6 +27,20 @@ const functionConst = "Je suis un const à portée de bloc";
 }
 show();
 
-console.log(functionVar); // Lance une ReferenceError
-console.log(functionLet); // Lance une ReferenceError
-console.log(functionConst); // Lance une ReferenceError
+//console.log(functionVar); // Lance une ReferenceError
+//console.log(functionLet); // Lance une ReferenceError
+//console.log(functionConst); // Lance une ReferenceError
+
+{
+    let test_let = "Je suis une let";
+    const test_const = "Je suis une const";
+    var test_var = "Je suis une var";
+
+    // test_let = "mise à jour let";
+    // test_const = "mise à jour const";
+    // test_var = "mise à jour var";
+}
+
+test_let = "mise à jour let";
+test_const = "mise à jour const";
+test_var = "mise à jour var";
